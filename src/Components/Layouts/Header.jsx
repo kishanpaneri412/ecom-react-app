@@ -18,6 +18,9 @@ const Header = () => {
             <Link className="nav-link" to="/about">
               About
             </Link>
+            <Link className="nav-link" to="/admin/category/list">
+              Category
+            </Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

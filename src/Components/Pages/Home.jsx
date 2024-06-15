@@ -1,13 +1,15 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import Products from "../Modules/Products";
+import List from "./Admin/Category/List";
 
 const Home = () => {
   return (
     <>
       {/*  */}
 
-      <Products title={"Product Title"} />
+      <Home />
+      {/* <Products title={"Product Title"} /> */}
     </>
   );
 };
