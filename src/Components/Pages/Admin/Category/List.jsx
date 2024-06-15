@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const List = ({ title }) => {
   const [items, setItems] = useState([]);
   const deletedata=(id)=>{
-alert(id)
+   alert(id)
   }
   useEffect(() => {
     fetch("http://localhost:4001/api/category")
@@ -22,6 +22,7 @@ alert(id)
           <th>Photo</th>
           <th>Delete</th>
         </tr>
+        
         {items.map((item) => (
           <tr key={item._id}>
             <td>{item.title}</td>
